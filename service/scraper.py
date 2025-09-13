@@ -20,7 +20,7 @@ import json
 GEMINI_API_KEY=os.environ.get("GEMINI_API_KEY")
 OPENAI_API_KEY=os.environ.get("OPENAI_API_KEY")
 
-engine = create_engine("postgresql://postgres:@localhost:5432/test")
+engine = create_engine("postgresql://demo:demo123@localhost:5432/agentinfradb")
 SessionLocal = sessionmaker(bind=engine)
 Base = declarative_base()
 
