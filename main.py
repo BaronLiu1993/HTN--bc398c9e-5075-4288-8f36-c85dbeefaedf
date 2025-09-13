@@ -2,9 +2,9 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
 
-from service.rewriteLayer import rewrite
+from service.rewrite import rewrite
 
-from service.scraperLayer import scraper
+from service.scraper import scraper
 
 app = FastAPI()
 def executeAgents(initialInput: str):
