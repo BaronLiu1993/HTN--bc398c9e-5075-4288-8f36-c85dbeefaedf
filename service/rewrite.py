@@ -16,7 +16,7 @@ import uuid
 import requests
 import json
 
-engine = create_engine("postgresql://postgres:@localhost:5432/test")
+engine = create_engine("postgresql://demo:demo123@localhost:5432/agentinfradb")
 SessionLocal = sessionmaker(bind=engine)
 Base = declarative_base()
 
