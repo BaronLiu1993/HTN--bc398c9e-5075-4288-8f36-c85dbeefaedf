@@ -1,0 +1,10 @@
+fastapi
+pydantic
+uvicorn
+celery
+openai
+google-genai
+SQLAlchemy
+requests
+psycopg2-binary
+pgvector
